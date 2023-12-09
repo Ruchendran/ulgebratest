@@ -1,0 +1,349 @@
+.home-main{
+                width:100vw;
+                background-color:#000000;
+
+                height:100vh;
+
+                overflow-y: auto;
+
+                
+}
+.editing{
+                cursor: pointer;
+
+                width:50px;
+
+                height:20px;
+
+
+}
+
+.heading{
+            color:#ffffff;
+}
+
+.editing:hover{
+                    width:52px;
+
+                    height:22px; 
+}
+
+
+
+.fail1{
+                color:red;
+
+                text-align: flex-start;
+
+                padding: 10px;
+}
+
+.icons{
+            width:20px;
+
+            color:#ffffff;
+
+            height:20px;
+}
+
+.delete{
+            cursor: pointer;
+            color:#ffffff;
+            background-color:transparent;
+
+            border-style: none;
+}
+
+.home-headersin{
+                    width:100vw;
+
+                    height:22vh;
+
+                    display: flex;
+
+                    align-items: center;
+                    justify-content: space-between;
+}
+
+.logout{
+            cursor: pointer;
+            width:200px;
+
+            height:40px;
+
+           display: block;
+}
+
+.logout:hover{
+                color:#ffffff;
+
+                background-color:transparent;
+
+                border-color:#ffffff;
+
+                border-style: solid;
+}
+
+.home-header{
+                width:20vw;
+
+                justify-content: space-around;
+                
+               align-items: flex-start;
+
+                height:20vh;
+
+                display: flex;
+                flex-direction: column;
+                padding-left: 10px;
+}
+
+.home-type{
+            width:20vw;
+
+            justify-content: space-between;
+            display: flex;
+}
+
+.line{
+            width:98vw;
+
+            color:#ffffff;
+}
+
+.input-area{
+                width:98vw;
+
+                height:80vh;
+}
+
+
+.notes{
+
+        border-radius: 10px;
+}
+
+.list-style{
+                width:98vw;
+                display: flex;
+
+                align-items: center;
+                height:10vh;
+}
+
+.stile{
+                color:#ffffff;
+}
+
+.delete-account{
+
+                    text-align: center;
+
+                    width:200px;
+
+                    height:40px;
+}
+
+.user-main{
+    width:25vw;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.success{
+            color:green;
+
+            align-self: center;
+}
+
+
+
+.input{
+
+    color:#ffffff;
+    background-color:transparent;
+}
+
+.fol{
+            color:#ffffff;
+
+            width:180px;
+
+            height:40px;
+
+            background-color:transparent;
+
+            padding-left: 10px;
+}
+
+.notes-click{
+
+            width:80px;
+
+            height:40px;
+              
+}
+
+.notes-click:hover{
+
+    border-color:#ffffff;
+    color:#ffffff;
+    border-style: solid;
+
+    background-color:transparent;
+
+}
+
+.home-note{
+            width:22vw;
+
+            display: flex;
+            align-items: center;
+
+            justify-content: center;
+}
+
+.list-main{
+
+            width:100vw;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            height:5vh;
+}
+
+.list-note{
+                color:#ffffff;
+
+                width:300px;
+}
+
+.list-stile{
+                color:#ffffff;
+          
+
+                
+
+         
+                
+}
+.edited{
+            width:300px;
+
+            height:40px;
+}
+
+.text-main{
+            width:25vw;
+            display: flex;
+            flex-direction: column;
+            height:18vh;
+
+            justify-content: space-between;
+
+            align-items: center;
+}
+
+.sign-login1{
+                cursor: pointer;
+                width:200px;
+
+                height:40px;
+}
+
+.sign-login1:hover{
+                        color:#ffffff;
+                        border-style:solid;
+
+                        border-color:#ffffff;
+
+                        background-color:transparent;
+}
+.user-home{
+
+            cursor: pointer;
+
+            width:50px;
+
+            height:50px;
+
+            border-radius: 50px;
+
+            font-weight: bold;
+
+
+}
+
+.user-home:hover{
+    border-color:#ffffff;
+    color:#ffffff;
+    border-style: solid;
+
+    background-color:transparent;
+}
+
+.sm-logout{
+
+    display: none;
+}
+
+@media all and (max-width:768px){
+
+    .logout{
+        display: none;
+    }
+    .text{
+        font-size: 10px;
+    }
+
+    .home-header{
+
+        width:100vw;
+
+        height:20vh;
+    }
+
+    .sm-logout{
+                    width:200px;
+
+                    height:30px;
+                    display: block;
+    }
+
+    .home-note{
+                    width:100vw;
+    }
+    .fail1{
+        text-align: center;
+    }
+
+    .text-main{
+                    width:90vw;
+
+                    display: flex;
+
+                    align-items: center;
+
+                    flex-direction: column;
+    }
+
+    .text-area{
+                    width:80vw;
+
+                    height:20vh;
+    }
+    .home-main{
+        overflow-x: hidden;
+
+
+    }
+    .o-lists{
+        overflow-x: scroll;
+    }
+}
